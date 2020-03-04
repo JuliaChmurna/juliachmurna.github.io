@@ -17,36 +17,83 @@
 
 <!--- Navigation -->
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="index.html"><img src="img/pufi.png">
+    <a class="navbar-brand" href="index.html"><img src="img/pufi.png" alt="logo">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-        <span class="navbar-toggler-icon"></span>
+    <span class="navbar-toggler-icon"></span>
     </button>
     
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#about faroe">About Faroe</a>
-             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#do & see">Do & See</a>
-             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#destinations">Destinations</a>
-             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#your stay">Your Stay</a>
-             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#events">Events</a>
-             </li>
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdown" role="button" data-toggle="dropdown">About Islands</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDown">
+                    <a class="dropdown-item" href="#">Practical Info</a>
+                    <a class="dropdown-item" href="about.html">Nature</a>
+                    <a class="dropdown-item" href="#">Culture</a>
+                    
+
+                </div>
+            </li>
+            
+            
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="do&see.html" id="navbarDropdown" role="button" data-toggle="dropdown">Do & See </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDown">
+                    <a class="dropdown-item" href="#">Activities</a>
+                    <a class="dropdown-item" href="#">Events</a>
+                </div>
+            </li>
+            
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="destinations.html" id="navbarDropdown" role="button" data-toggle="dropdown">Destinations </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDown">
+                    <a class="dropdown-item" href="#">Map of Faroe</a>
+                    <a class="dropdown-item" href="#">Destinations by interest</a>
+                </div>
+            </li>
+            
+            
+            
+        
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="stay.html" id="navbarDropdown" role="button" data-toggle="dropdown">Your Stay</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDown">
+                    <a class="dropdown-item" href="#">Transport</a>
+                    <a class="dropdown-item" href="#">Accommodation</a>
+                    <a class="dropdown-item" href="#">Restaurants</a>
+                </div>
+            </li>
+            
+            
+            
+            
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">More</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDown">
+                    <a class="dropdown-item" href="#">Gallery</a>
+                    <a class="dropdown-item" href="#">Articles</a>
+                </div>
+            </li>
+            
+            
+            
+            
+            
+            
+            
         </ul>
     </div>
 </nav>
 <!--- End Navigation -->
 
+ 
 
-
+</div> <!--- End Carouel Inner -->
     
   
     
@@ -60,35 +107,34 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> 
     </ol>
     
-    <div class="carousel-inner">  
-        
-       
+    <div class="carousel-inner" role="listbox">  
+        <!--- 1.slide -->
         <div class="carousel-item active">
-            <img class="d-block w-100" src="img/landscape4.jpg">
-            <div class="overlay"><h1>WELCOME TO MYSTICAL FAROE ISLANDS</h1>
-    <a class="btn btn-outline-light btn-lg" href="#do & see">Explore</a>
-    </div>
+            <img class="d-block w-100" src="img/front/waterfall.jpg">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>WELCOME TO MYSTICAL FAROE ISLANDS</h1>
+                <a class="btn btn-outline-light btn-lg" href="#do & see">Explore</a>
+            </div>
         </div>
-     
-      
+        <!--- 2. slide -->
         <div class="carousel-item">
-            <img class="d-block w-100" src="img/houses.jpg">
-              <div class="overlay"><h1>WELCOME TO MYSTICAL FAROE ISLANDS</h1>
-    <a class="btn btn-outline-light btn-lg" href="#do & see">Explore</a>
-    </div>
+            <img class="d-block w-100" src="img/front/sheep.jpg">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>WELCOME TO MYSTICAL FAROE ISLANDS</h1>
+                <a class="btn btn-outline-light btn-lg" href="#do & see">Explore</a>
+            </div>
         </div>
-        
-        
+        <!--- 3. slide -->
         <div class="carousel-item">
-            <img class="d-block w-100" src="img/sheep.jpg">
-              <div class="overlay"><h1>WELCOME TO MYSTICAL FAROE ISLANDS</h1>
-    <a class="btn btn-outline-light btn-lg" href="#do & see">Explore</a>
-    </div>
+            <img class="d-block w-100" src="img/front/rocks.jpg">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>WELCOME TO MYSTICAL FAROE ISLANDS</h1>
+                <a class="btn btn-outline-light btn-lg" href="#do & see">Explore</a>
+            </div>
         </div>
+      </div> <!--- End Carouel Inner -->  
         
-            
-        </div>
-        
+    <!--- Previous and Next Buttons --> 
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     </a>
@@ -96,15 +142,9 @@
     <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
     </a>
+    </div><!--- End Image Slider -->    
     
-    </div>
 
-  
-    
-   
-  
-</div>
-<!--- End Home Section -->
     
     
     
@@ -121,19 +161,26 @@
     </div>
 <!--- End Do & See Section -->   
     
+    
+    
+    
+    
 <!--- Start Destinations Section -->
-<div id="destinations" class="jumbotron container-fluid">
+
+    <div id="destinations" class="offset">
+    <div class="jumbotron container-fluid">
    
-    <div class="col-12 text-center">
-        <h3 class="heading">Destinations</h3>
-        <div class="heading-underline"></div>
-    </div>
+        <div class="col-12 text-center">
+            <h3 class="heading">Destinations</h3>
+            <div class="heading-underline"></div>
+        </div>
+ 
 
     <div class="row no-padding">
     
         <div class="col-sm-4">
             <div class="destinations">
-            <a href="destinations/saksun.jpeg" target="_blank" class="responsive">
+            <a href="https://www.visitfaroeislands.com/" target="_blank">
                 <img src="destinations/saksun.jpeg">
                 </a>
             </div> 
@@ -144,7 +191,7 @@
             <a href="destinations/mykines.jpeg" target="_blank">
                 <img src="destinations/mykines.jpeg">
                 </a>
-            </div> 
+            </div>  
         </div>
         
         
@@ -184,114 +231,215 @@
         
         
         
-        <div class="col-12 text-center"> 
-                <p class="lead">Want to exp this?</p>
-                <a class="btn btn-secondary btn- md" href="https://visitfaroeislands.com/" target="_blank">Map of Faroe</a>
+        
+        
+    
+        <div class="col-12 narrow text-center">
+        <h2>FAROES DO & SEE</h2>
+        <p class="lead">Want to experience this?</p>
+        <a class="btn btn-secondary btn-md" href="http://visitfaroeislands.com/" target="_blank">Map of Faroe</a>
         </div>
     
+        
+        
+    
+       
         
     </div><!--- End Row -->
     </div><!--- End Jumbotron -->
     
+    </div>
+<!--- End Destinations Section --> 
     
     
-<!--- End Destinations Section -->  
+<!--- Start Your Stay SectionA-TEAM --> 
     
-<!--- Start Your Stay Section -->  
+    <div id="team" class="offset">
+        
+        <div class="col-12 text-center">
+        <h3 class="heading">Team</h3>
+        <div class="heading-underline"></div>
+        </div>
+        
+    <div class="row padding">
+        
+        <div class="col-md-6">
+            <div class="card text-center">
+                <img class="card-img-top" src="img/pufi.png">
+                <div class="card-body">
+                    <h4>Julia</h4>
+                    <p>this is me.</p>
+                </div>
+            </div>
+        </div>  
+        
+        <div class="col-md-6">
+            <div class="card text-center">
+                <img class="card-img-top" src="img/houses.jpeg">
+                <div class="card-body">
+                    <h4>julius</h4>
+                    <p>this is NOT me.</p>
+                </div>
+            </div>
+        </div> 
+        
+    </div> <!---End of Row -->
     
+    </div>
     
-    <h2 class="main-title">How to get here and around</h2>
-    
-    <div class="container">
-  <div class="content">
-    <a href="https://www.visitfaroeislands.com/plan-your-stay/transport/car-rental/" target="_blank">
-      <div class="content-overlay"></div>
-      <img class="content-image" src="img/plan/car.jpeg">
-      <div class="content-details fadeIn-top">
-        <h3>Drive</h3>
-        <p>be flexible</p>
-      </div>
-    </a>
-  </div>
-</div>
-    
-    
-    <div class="container">
-  <div class="content">
-    <a href="https://www.visitfaroeislands.com/plan-your-stay/transport/car-rental/" target="_blank">
-      <div class="content-overlay"></div>
-      <img class="content-image" src="img/plan/fly.jpeg">
-      <div class="content-details fadeIn-top">
-        <h3>Fly</h3>
-        <p>enjoy views</p>
-      </div>
-    </a>
-  </div>
-</div>
+<!--- End Your Stay SectionA-TEAM -->
 
-    <div class="container">
-  <div class="content">
-    <a href="https://www.visitfaroeislands.com/plan-your-stay/transport/car-rental/" target="_blank">
-      <div class="content-overlay"></div>
-      <img class="content-image" src="img/plan/boat.jpeg">
-      <div class="content-details fadeIn-top">
-        <h3>Boat</h3>
-        <p>dont get seasick</p>
-      </div>
-    </a>
-  </div>
-</div>
-
-
-      <div class="container">
-  <div class="content">
-    <a href="https://www.visitfaroeislands.com/plan-your-stay/transport/car-rental/" target="_blank">
-      <div class="content-overlay"></div>
-      <img class="content-image" src="img/plan/bike.jpeg">
-      <div class="content-details fadeIn-top">
-        <h3>Bike</h3>
-        <p>rent a bike</p>
-      </div>
-    </a>
-  </div>
-</div>
     
-    <div class="container">
-  <div class="content">
-    <a href="https://www.visitfaroeislands.com/plan-your-stay/transport/car-rental/" target="_blank">
-      <div class="content-overlay"></div>
-      <img class="content-image" src="img/plan/hiking.jpeg">
-      <div class="content-details fadeIn-top">
-        <h3>Hike</h3>
-        <p>hike with sheeps</p>
-      </div>
-    </a>
-  </div>
-</div>
-    
-    <div class="container">
-  <div class="content">
-    <a href="https://www.visitfaroeislands.com/plan-your-stay/transport/car-rental/" target="_blank">
-      <div class="content-overlay"></div>
-      <img class="content-image" src="img/plan/ferry.jpeg">
-      <div class="content-details fadeIn-top">
-        <h3>Ferry</h3>
-        <p>transport between islands</p>
-      </div>
-    </a>
-  </div>
-</div>
-    
-    
-    
+<!--- Start Your TEST na 2.jumbotron -->  
+         
+  <div id="transport" class="offset">
+    <div class="jumbotron container-fluid">
    
+        <div class="col-12 text-center">
+            <h3 class="heading">How to get around</h3>
+            <div class="heading-underline"></div>
+        </div>
+ 
+
+    <div class="row no-padding">
     
-<!--- End Your Stay Section --> 
+        <div class="col-sm-4">
+            <div class="content">
+            <a href="https://www.visitfaroeislands.com/" target="_blank">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="img/plan/car.jpeg">
+                <div class="content-details fadeIn-top">
+               <h3>Drive</h3>
+        <p>be flexible</p>
+                </div>
+                </a>
+                </div> 
+            </div> 
+        
     
-<!--- Start Events Section -->
+        
+        <div class="col-sm-4">
+            <div class="content">
+            <a href="https://www.visitfaroeislands.com/" target="_blank">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="img/plan/flyc.jpg">
+                <div class="content-details fadeIn-top">
+               <h3>Fly</h3>
+        <p>enjoy views</p>
+                </div>
+                </a>
+                </div> 
+            </div> 
+        
+        
+        <div class="col-sm-4">
+            <div class="content">
+            <a href="https://www.visitfaroeislands.com/" target="_blank">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="img/plan/boat.jpeg">
+                <div class="content-details fadeIn-top">
+               <h3>Boat</h3>
+        <p>dont get seasick</p>
+                </div>
+                </a>
+                </div> 
+            </div> 
+        
+        
+        
+        <div class="col-sm-4">
+            <div class="content">
+            <a href="https://www.visitfaroeislands.com/" target="_blank">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="img/plan/ferryc.jpg">
+                <div class="content-details fadeIn-top">
+               <h3>Ferry</h3>
+        <p>be flexible</p>
+                </div>
+                </a>
+                </div> 
+            </div> 
+        
+        
+        
+        <div class="col-sm-4">
+            <div class="content">
+            <a href="https://www.visitfaroeislands.com/" target="_blank">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="img/plan/bikec.jpg">
+                <div class="content-details fadeIn-top">
+               <h3>Bike</h3>
+        <p>be flexible</p>
+                </div>
+                </a>
+                </div> 
+            </div> 
+        
+        
+        <div class="col-sm-4">
+            <div class="content">
+            <a href="https://www.visitfaroeislands.com/" target="_blank">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="img/plan/hiking.jpeg">
+                <div class="content-details fadeIn-top">
+               <h3>Hike</h3>
+        <p>be flexible</p>
+                </div>
+                </a>
+                </div> 
+            </div> 
+        
+        
+        
+        
+    
+        
+        
+        
+    </div><!--- End Row -->
+    </div><!--- End Jumbotron -->
+    
+    </div>  
+<!--- End Your TEST na 2.j --> 
+    
 <div id="events" class="offset">
+    
+    
+
+    
+    
     </div>
 <!--- End Events Section --> 
+    
+    
+<!--- Start Footer -->
+
+<div id="contact" class="offset">
+    
+<footer>
+<div class="row justify-content-center">
+ 
+    <div class="col-md-5 text-center">
+        <img src="img/pufi.png">
+        <p>This is my logo of puffin.</p>
+        <strong>Contact Info</strong>
+        <p>1234567890<br>j.chmurna@gmail.com</p>
+        
+        <a href="https://www.facebook.com/VisitFaroeIslands/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/visitfaroeislands/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/visitfaroe?lang=en" target="_blank"><i class="fab fa-twitter-square"></i></a>
+    </div>
+    
+    <hr class="socket">
+    &copy; by Julius.
+    
+    
+</div> <!--- End of Row -->
+</footer>
+</div>
+    
+    
+<!--- End Footer>
 
 <!--- Script Source Files -->
 <script src="js/jquery-3.3.1.min.js"></script>
