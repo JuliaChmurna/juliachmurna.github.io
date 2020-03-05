@@ -27,19 +27,26 @@ body{
 .navbar-nav li {
     padding-right: .7rem;   
 }
+.navbar-dark .navbar-nav .navbar-form {
+    padding-top: .3rem;
+}
+
 .navbar-dark .navbar-nav .nav-link {
     color: white;
     padding-top: .8rem;
 }
+
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
     color: darkorange!important; 
 }
 
-/*--Test navbar--*/
-
-.dropdown-menu {
+.navbar-nav .dropdown-menu {
     font-family: 'Source Sans Pro';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
 }
 
 
@@ -47,6 +54,35 @@ body{
 .navbar-dark .navbar-nav .dropdown-item:hover {
     color: darkorange!important; 
 }
+.navbar-dark .navbar-nav .fa-search.active,
+.navbar-dark .navbar-nav .fa-search:hover {
+    color: darkorange!important; 
+}
+
+.navbar-form input {
+    font-family: 'Source Sans Pro';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background-color: white; 
+    opacity: 0.95;
+}
+
+.navbar-form button {
+    background-color: #A3ACB6; 
+}
+
+
+
+/*----- Responsive Navbar -----*/
+
+
+
+
+
+
+
 
 
 /*--- Carousel --*/
