@@ -50,7 +50,7 @@
 .image-over-3-col-text {
   margin: 1rem;
 }
-@media (min-width: 1170px) {
+@media (min-width: 767px) {
   .image-over-3-col-text {
     max-width: 1170px;
     margin: 1rem auto;
@@ -88,18 +88,18 @@
 .tall-left-text-right .img {
     padding-top: -70px;
 }
-@media (min-width: 500px) {
+@media (min-width: 599px) {
   .tall-left-text-right {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (min-width: 700px) {
+@media (min-width: 767px) {
   .tall-left-text-right {
     grid-template-columns: 2fr 1fr;
   }
 }
-@media (min-width: 500px) {
+@media (min-width: 599px) {
   .tall-left-text-right .text {
     padding: 0 4vw 0 4vw;
   }
@@ -111,39 +111,7 @@
 #culture {
     padding-top: 30px;
 }
-.one-col-text-one-img-right .text {
-   text-align: justify; 
-   font-size: 14px;
-}
-.one-col-text-one-img-right {
-  padding: 3rem 1rem;
-  max-width: 1000px;
-  margin-left: 125px;
-}
 
-@media (min-width: 600px) {
-  .one-col-text-one-img-right {
-    display: grid;
-    grid-template-columns: 1fr 100px 300px;
-    grid-template-rows: auto auto;
-    grid-column-gap: 1rem;
-  }
-}
-@media (min-width: 600px) {
-  .one-col-text-one-img-right .text {
-    grid-column: 1/2;
-    grid-row: 1/-1;
-  }
-}
-@media (min-width: 600px) {
-  .one-col-text-one-img-right .image {
-    grid-column: 3/4;
-    grid-row: 2;
-    position: -webkit-sticky;
-    position: sticky;
-    bottom: 0;
-  }
-}
 
 .caption {
   font-style: italic;
@@ -197,3 +165,42 @@
     grid-row: 2;
   }
 }
+
+/*-- Culture --*/
+
+
+.image-under-3-col-text .img {
+    height: 100%;
+    width: 100%;    
+    padding-top: 20px;
+}
+.image-under-3-col-text img {
+  width: 100%;
+  display: block;
+  padding-top: 70px;
+}
+.image-under-3-col-text {
+  margin: 1rem;
+}
+@media (min-width: 767px) {
+  .image-under-3-col-text {
+    max-width: 1170px;
+    margin: 1rem auto;
+  }
+}
+.image-under-3-col-text .text {
+  margin-top: 2rem;
+  -webkit-columns: 3;
+          columns: 3;
+  -webkit-column-width: 230px;
+          column-width: 230px;
+ text-align: justify;
+ column-gap: 30px;
+ font-size: 14px;
+}
+
+
+
+
+
+

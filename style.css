@@ -444,7 +444,7 @@ footer svg.svg-inline--fa:hover {
 
 
 
-@media (max-width: 880px) {
+@media (max-width: 767px) {
 
 	.footer-distributed{
 		font: 14px font-family: 'Source Sans Pro';
