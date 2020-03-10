@@ -28,11 +28,7 @@
     text-align: left;
     margin-top: 12px;
 }
-.image-over-3-col-text .img {
-    height: 100%;
-    width: 100%;    
-    padding-top: 20px;
-}
+
 #practical img {
   width: 100%;
   display: block;
@@ -45,7 +41,7 @@
 .image-over-3-col-text img {
   width: 100%;
   display: block;
-  padding-top: 70px;
+  padding-top: 48px;
 }
 .image-over-3-col-text {
   margin: 1rem;

@@ -216,15 +216,18 @@ h3.heading {
     width: 33.333333%;
   }
 }
-
+.col-sm-4 {
+    column-gap: 5px;
+    border-image-width: 5px;
+}
 .col-sm-4 .content {
   position: relative;
   width: 100%;
   max-width: 400px;
   max-height: 320px;
-  margin: .5px;
+  margin: 0px;
   overflow: hidden;
-  float:left;
+  float:inherit;
 }
 
 .content .content-overlay {
