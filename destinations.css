@@ -244,7 +244,7 @@ padding-top: 60px;
   top: 40%;
 }
 
-
+ 
 /*---first image in destinations --*/
 .imagetop img {
   width: 100%;
@@ -295,7 +295,7 @@ h3 {
     text-align: justify;
     text-transform: none;
 }
-#torshavn p{
+#torshavn    p{
     font-size: 14px;
     text-align: justify;
     text-transform: none;
